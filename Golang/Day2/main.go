@@ -3,9 +3,12 @@ package main
 import "fmt"
 
 func main() {
+	// KthSymbol
+	// fmt.Println(KthSymbol(3, 1))
+	// fmt.Println(KthSymbol(3, 2))
+	// fmt.Println(KthSymbol(3, 3))
+	// fmt.Println(KthSymbol(3, 4))
 
-	fmt.Println(KthSymbol(3, 1))
-	fmt.Println(KthSymbol(3, 2))
-	fmt.Println(KthSymbol(3, 3))
-	fmt.Println(KthSymbol(3, 4))
+	//JosephusProblem
+	fmt.Println(findTheWinner(4, 5))
 }
