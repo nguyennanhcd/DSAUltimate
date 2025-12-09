@@ -21,8 +21,6 @@ Possible ways:
 
 package main
 
-import "fmt"
-
 func countWays(nums []int, target int, i int) int {
 	// Base case: exact match → 1 valid way
 	if target == 0 {
@@ -41,10 +39,4 @@ func countWays(nums []int, target int, i int) int {
 	skip := countWays(nums, target, i+1)
 
 	return take + skip
-}
-
-func main() {
-	nums := []int{1, 3, 4}
-	target := 5
-	fmt.Println(countWays(nums, target, 0))
 }
