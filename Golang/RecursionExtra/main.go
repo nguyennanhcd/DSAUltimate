@@ -9,6 +9,9 @@ func main() {
 
 	// subsequences string
 
-	result := Subsequences("abc")
-	fmt.Printf("%q\n", result)
+	// result := Subsequences("abc")
+	// fmt.Printf("%q\n", result)
+
+	result := sumOfFirstN(5)
+	fmt.Println(result)
 }
