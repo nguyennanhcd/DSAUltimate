@@ -12,6 +12,11 @@ func main() {
 	// result := Subsequences("abc")
 	// fmt.Printf("%q\n", result)
 
-	result := sumOfFirstN(5)
-	fmt.Println(result)
+	// result := sumOfFirstN(5)
+	// fmt.Println(result)
+
+	// fmt.Println(factorial(5))
+
+	arr := []int{1, 2, 3, 4, 5}
+	fmt.Println(sumPtr(&arr, 0))
 }
