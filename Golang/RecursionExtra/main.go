@@ -26,6 +26,9 @@ func main() {
 
 	// printFibonacci(n, 0, 1)
 
-	numbers := []int{1, 2, 3}
-	fmt.Println(generateSubsets(numbers))
+	numbers := []int{3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5}
+	fmt.Println(Max(numbers))
+
+	// numbers := []int{1, 2, 3}
+	// fmt.Println(generateSubsets(numbers))
 }

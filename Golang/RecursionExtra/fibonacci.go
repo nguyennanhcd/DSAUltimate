@@ -27,16 +27,16 @@ func fibonacci(n int) int {
 	return fibonacci(n-1) + fibonacci(n-2)
 }
 
-func printFibonacci(n int, a int, b int) {
+func printFibonacci(n int, current int, next int) {
 	if n == 0 {
 		return
 	}
 
-	fmt.Print(a)
+	fmt.Print(current)
 
 	if n > 1 {
 		fmt.Print(", ")
 	}
 
-	printFibonacci(n-1, b, a+b)
+	printFibonacci(n-1, next, current+next)
 }
